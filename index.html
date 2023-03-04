@@ -30,7 +30,7 @@
 	<!-- Favicon  -->
     <link rel="icon" href="images/logo.png">
 </head>
-<body data-spy="scroll" data-target=".fixed-top">
+<body>
     
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -40,7 +40,7 @@
             <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative" style="border-radius:50%;width:55px;height:50px;"></a>
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
-             <a class="navbar-brand logo-text page-scroll" href="index.html">Huda</a>
+             <a class="navbar-brand logo-text page-scroll" href="index.html">Huda <span class="mh">MH</span></a>
 
             <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon"></span>
@@ -71,17 +71,15 @@
 
 
     <!-- Header -->
-    <header id="header" class="header">
+    <header id="header" class="header mt-2">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="text-container mt-2">
-                        <h3 class="h1-large">Hello</h3>
-                        <h1 class="h1-large">I am Huda Mhawish</h1>
-                        <h1 style="color:#57959f;">Full Stack Web Developer | Python Developer</h1>
-                        <a class="btn-solid-lg page-scroll" href="#about">Discover</a>
-                        <a class="btn-outline-lg page-scroll" href="#contact"><i class="fas fa-user"></i>Contact Me</a>
-                    </div> <!-- end of text-container -->
+                <div class="col-lg-9">
+                    <div class="">
+                        <div class="info-me">
+                            <h3 class="h1-large">Hello, I am Huda Mhawish</h3>
+                        </div>
+                        </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
@@ -90,21 +88,24 @@
 
 
     <!-- About-->
-    <div id="about" class="basic-1 bg-gray">
-        <div class="container">
+    <div id="about" class="basic-1">
+        <div class="back">
+        <div class="container pt-2">
+            <h2 class="mb-4">About Me</h2>
+            <hr class="mb-5" style="box-shadow: 0px 0px 9px 6px #17a2b8; width: 75%;"/>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="text-container first">
-                        <h2>Hi there,</h2>
+                        <h3>Hi there,</h3>
                         <p>I am an Artificial Intelligence engineer and Full stack web developer who learns every day something new.
-                             <br/>Now I am focusing on  python/django.I want to have more and more skills in Various aspects of life.</p>
+                             <br/>Now I am focusing on Django Rest API and React Js.I want to have more and more skills in Various aspects of life.</p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
                     <div class="text-container second">
                         <div class="time">Education</div>
                         <h6>Damascus University</h6>
-                        <p>Bachelor's degree, Information Technology (Artificial Intelligence) · (2016 - 2020)</p>
+                        <p>Bachelor's degree, Information Technology (Artificial Intelligence) · (2016 - 2021)</p>
                         <div class="time">Licenses & certifications</div>
                         <a href="https://www.coursera.org/account/accomplishments/certificate/UQ4FJYAVQK52"> •	What is Data Science, Coursera. January-2021</a><br/>
                         <a href="https://www.coursera.org/account/accomplishments/certificate/RGUTX5JVEFKY"> •	Data Analysis with Python, Coursera. March-2021</a>
@@ -124,20 +125,17 @@
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
+        </div>
     </div> <!-- end of basic-1 -->
     <!-- end of about -->
 
 
     <!-- Services -->
     <div id="services" class="basic-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading mb-2">Offered services</h2>
-                    <hr class="mb-5" style="box-shadow:2px 2px 5px #545b62;width:40%"/>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-
+        <div class="back">
+        <div class="container pt-2">
+            <h2 class="mb-4">My services</h2>
+            <hr class="mb-5" style="box-shadow: 0px 0px 9px 6px #17a2b8; width: 75%;"/>
             <div class="row feature_inner">
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
@@ -165,12 +163,16 @@
 				</div>
 			</div>
         </div> <!-- end of container -->
+        </div>
     </div> <!-- end of basic-2 -->
     <!-- end of services -->
 
     <!-- Portfolio-->
     <div id="portfolio1" class="basic-4">
-        <div class="container">
+        <div class="back">
+        <div class="container pt-2">
+            <h2 class="mb-4">My Portfolio</h2>
+            <hr class="mb-5" style="box-shadow: 0px 0px 9px 6px #17a2b8; width: 75%;"/>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="text-container">
@@ -179,11 +181,12 @@
                                 <img class="img-fluid" src="images/souq.jpg" alt="alternative">
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">Full-stack Website</div>
-                                    <div class="project-name">shopping</div>
+                                    <div class="project-name">shopping<br>
+                                        It is an online Python Ecommerce website built with Django, SQLite and Bootstrap
+                                    </div>
                                 </div>
                             </a>
                         </div> <!-- end of image-container -->
-                        <p>It is an online Python Ecommerce website built with Django, SQLite and Bootstrap  <a class="blue" href="https://github.com/hudaMhawish-CS/E-Commerce-Django">| details |</a></p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -193,11 +196,12 @@
                                 <img class="img-fluid" src="images/sweet.jpg" alt="alternative">
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">Full-stack Website</div>
-                                    <div class="project-name">Syrian Sweet</div>
+                                    <div class="project-name">Syrian Sweet<br>
+                                        It is a Blog website built with Django, Postgresql, Bootstrap and Ajax
+                                    </div>
                                 </div>
                             </a>
                         </div> <!-- end of image-container -->
-                        <p>It is a Blog website built with Django, Postgresql, Bootstrap and Ajax <a class="blue" href="https://github.com/hudaMhawish-CS/django-blog-website">| details |</a></p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -207,11 +211,12 @@
                                 <img class="img-fluid" src="images/QG.jpg" alt="alternative">
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">Full-stack Website</div>
-                                    <div class="project-name">Questions Generation</div>
+                                    <div class="project-name">Questions Generation<br>
+                                        Building a website based on NLP to automatic question generation from English text
+                                    </div>
                                 </div>
                             </a>
                         </div> <!-- end of image-container -->
-                        <p>Building a website based on NLP to automatic question generation from English text <a class="blue" href="https://github.com/hudaMhawish-CS/question-generation-website-in-django-and-bootstrap">| details |</a></p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -223,11 +228,12 @@
                                 <img class="img-fluid" src="images/we-life.jpg" alt="alternative">
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">Front-end Website</div>
-                                    <div class="project-name">We life</div>
+                                    <div class="project-name">We life<br>
+                                        Responsive website using CSS3, HTML5 and Bootstrap
+                                    </div>
                                 </div>
                             </a>
                         </div> <!-- end of image-container -->
-                        <p>Responsive website using CSS3, HTML5 and Bootstrap <a class="blue" href="https://github.com/hudaMhawish-CS/we-life">| details |</a></p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -237,11 +243,12 @@
                                 <img class="img-fluid" src="images/data_mining.jpg" alt="alternative">
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">Data mining </div>
-                                    <div class="project-name">Clustering</div>
+                                    <div class="project-name">Clustering<br>
+                                        Clustering Algorithms for Biological Data Analysis included Cleaning data, preprocessing and Algorithms for clustering
+                                    </div>
                                 </div>
                             </a>
                         </div> <!-- end of image-container -->
-                        <p>Clustering Algorithms for Biological Data Analysis included Cleaning data, preprocessing and Algorithms for clustering <a class="blue" href="https://github.com/hudaMhawish-CS/data-mining">| details |</a></p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -251,11 +258,12 @@
                                 <img class="img-fluid" src="images/ml.jpg" alt="alternative">
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">Machine Learning </div>
-                                    <div class="project-name">Prediction </div>
+                                    <div class="project-name">Prediction <br>
+                                        Prediction on Diabetes Patient’s Hospital Readmission Rates using Analyze the data and choose the best model
+                                    </div>
                                 </div>
                             </a>
                         </div> <!-- end of image-container -->
-                        <p>Prediction on Diabetes Patient’s Hospital Readmission Rates using Analyze the data and choose the best model <a class="blue" href="https://github.com/hudaMhawish-CS/machine-learning">| details |</a></p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-4">
@@ -265,35 +273,37 @@
                                 <img class="img-fluid" src="images/nlp.jpg" alt="alternative">
                                 <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">Natural Language Processing </div>
-                                    <div class="project-name">Classification </div>
+                                    <div class="project-name">Classification<br>
+                                        Tweets Classification Using of NLP,ML to collect tweets ,clean and classifying them
+                                    </div>
                                 </div>
                             </a>
                         </div> <!-- end of image-container -->
-                        <p>Tweets Classification Using of NLP,ML to collect tweets ,clean and classifying them <a class="blue" href="https://github.com/hudaMhawish-CS/natural-language-processing">| details |</a></p>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
+        </div>
     </div> <!-- end of basic-4 -->
     <!-- end of Portfolio -->
 
 
     <!--================Contact Area =================-->
-    <div id="contact" class="basic-5 bg-gray pt-5">
+    <div id="contact" class="basic-5">
+        <div class="back">
         <div class="container">
             <div class="row">
                     <div class="col-md-3">
-
                     </div>
                     <div class="col-md-3">
                         <div class="info_item mb-3">
-                        <i class="fa fa-home" style="color:#4458dc;"></i><br>
-                        <h6>Damascus, Syria</h6>
+                        <i class="fa fa-home" style="color:#17a2b8"></i><br>
+                        <h6>Tartous, Syria</h6>
                     </div>
                     </div>
                     <div class="col-md-3">
                         <div class="info_item mb-3">
-                        <i class="fa fa-phone-alt" style="color:#4458dc"></i><br>
+                        <i class="fa fa-phone-alt" style="color:#17a2b8"></i><br>
                         <h6><a href="#">+963 935 764 964</a></h6>
                     </div>
                     </div>
@@ -332,25 +342,26 @@
                 </div>
             </div>
         </div>
+        </div>
     </div>
     <!--================Contact Area =================-->
 
 
 
     <!-- Copyright -->
-    <div class="copyright bg-gray">
+    <div class="copyright">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright 2022 © <span class="no-line" style="color:#4458dc;font-weight:bold;">Huda Mhawish</span></p>
+                    <p class="p-small">Copyright 2023 © <span class="no-line" style="color:#17a2b8;font-weight:bold;">Huda Mhawish</span></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
         
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
-    
-    	
+
+
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
